@@ -1,0 +1,3 @@
+- Fill HomePage UI - caveat font heading in app bar - "Sam's Book List", 
+blueGrey background from Plans, white logo to launch 
+- Upload images
