@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sams_book_list/constants.dart';
+import 'package:url_launcher/url_launcher.dart';
 
+import '/constants.dart';
 import '/models/book_model.dart';
 
 class BookWidget extends StatelessWidget {
@@ -10,6 +11,12 @@ class BookWidget extends StatelessWidget {
     super.key,
     required this.books,
   });
+
+  Future<void> _launchUrl(Uri url) async {
+    if (!await launchUrl(url)) {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +28,7 @@ class BookWidget extends StatelessWidget {
         ),
         itemBuilder: (context, index) {
           return SizedBox(
-            width: mediaWidth,
+            width: mediaWidth > 750 ? mediaWidth / 2 : mediaWidth,
             child: Center(
               child: Column(
                 children: [
@@ -31,16 +38,23 @@ class BookWidget extends StatelessWidget {
                         books[index].rank,
                         style: headingStyle,
                       ),
-                      const SizedBox(width: 16),
-                      Text(
-                        books[index].title,
-                        style: headingStyle,
+                      const SizedBox(width: 8),
+                      TextButton(
+                        onPressed: () =>
+                            _launchUrl(Uri.parse(books[index].url)),
+                        child: Text(
+                          books[index].title,
+                          style: headingStyle,
+                          maxLines: 3,
+                          softWrap: true,
+                        ),
                       ),
                     ],
                   ),
                   Text(
                     books[index].author,
                     style: bodyStyle,
+                    softWrap: true,
                   ),
                   Image.asset(
                     books[index].coverImage,

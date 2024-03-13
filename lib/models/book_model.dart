@@ -4,6 +4,7 @@ class Book {
   final String coverImage;
   final int rating;
   final String rank;
+  final String url;
 
   Book({
     required this.title,
@@ -11,5 +12,6 @@ class Book {
     required this.coverImage,
     required this.rating,
     required this.rank,
+    required this.url,
   });
 }

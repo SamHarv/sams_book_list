@@ -8,6 +8,7 @@ List<Book> books = [
     coverImage: 'images/limitless.jpg',
     rating: 5,
     rank: '1',
+    url: 'https://www.amazon.com.au/Limitless-Jim-Kwik/dp/1401958230',
   ),
   Book(
     title: 'Essentialism: The Disciplined Pursuit of Less',
@@ -15,5 +16,7 @@ List<Book> books = [
     coverImage: 'images/essentialism.jpg',
     rating: 8,
     rank: '2',
+    url:
+        'https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382',
   ),
 ];
