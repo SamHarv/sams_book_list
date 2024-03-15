@@ -3,6 +3,9 @@ import 'package:google_fonts/google_fonts.dart';
 
 const Color colour = Color.fromARGB(255, 55, 72, 84);
 
+const gapW62 = SizedBox(width: 62);
+const gapH16 = SizedBox(height: 16);
+
 const TextStyle headingStyle = TextStyle(
   color: Colors.white,
   fontFamily: 'Roboto',
