@@ -28,4 +28,13 @@ List<Book> books = [
     rank: '3',
     url: 'https://www.amazon.com.au/Limitless-Jim-Kwik/dp/1401958230',
   ),
+  Book(
+    title: 'The Diary of a CEO: The 33 Laws of Business and Life',
+    author: 'Steven Bartlett',
+    coverImage: 'images/diary_CEO.jpg',
+    rating: 10,
+    rank: '4',
+    url:
+        'https://www.amazon.com.au/Diary-CEO-Laws-Business-Marketing-ebook/dp/B09VRXYMW5',
+  ),
 ];
