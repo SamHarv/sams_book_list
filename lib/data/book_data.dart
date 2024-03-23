@@ -37,4 +37,13 @@ List<Book> books = [
     url:
         'https://www.amazon.com.au/Diary-CEO-Laws-Business-Marketing-ebook/dp/B09VRXYMW5',
   ),
+  Book(
+    title: 'Effortless: Make It Easier to Do What Matters Most',
+    author: 'Greg McKeown',
+    coverImage: 'images/effortless.jpg',
+    rating: 10,
+    rank: '5',
+    url:
+        'https://www.amazon.com.au/Effortless-Make-Easier-What-Matters/dp/0753558378/ref=asc_df_0753558378/?tag=googleshopdsk-22&linkCode=df0&hvadid=463569722878&hvpos=&hvnetw=g&hvrand=16902965023063530294&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9071402&hvtargid=pla-1110036463650&psc=1&mcid=15ea9061ce3d3291a775ee4bb3c2f856',
+  ),
 ];
