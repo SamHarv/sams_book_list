@@ -48,11 +48,14 @@ class BookWidget extends StatelessWidget {
                         child: TextButton(
                           onPressed: () =>
                               _launchUrl(Uri.parse(books[index].url)),
-                          child: Text(
-                            books[index].title,
-                            style: headingStyle,
-                            softWrap: true,
-                            overflow: TextOverflow.visible,
+                          child: Align(
+                            alignment: Alignment.topLeft,
+                            child: Text(
+                              books[index].title,
+                              style: headingStyle,
+                              softWrap: true,
+                              overflow: TextOverflow.visible,
+                            ),
                           ),
                         ),
                       ),

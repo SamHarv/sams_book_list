@@ -46,4 +46,13 @@ List<Book> books = [
     url:
         'https://www.amazon.com.au/Effortless-Make-Easier-What-Matters/dp/0753558378/ref=asc_df_0753558378/?tag=googleshopdsk-22&linkCode=df0&hvadid=463569722878&hvpos=&hvnetw=g&hvrand=16902965023063530294&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9071402&hvtargid=pla-1110036463650&psc=1&mcid=15ea9061ce3d3291a775ee4bb3c2f856',
   ),
+  Book(
+    title: 'Tao Te Ching',
+    author: 'Lao Tzu',
+    coverImage: 'images/tao.jpg',
+    rating: 10,
+    rank: '6',
+    url:
+        'https://www.amazon.com.au/Tao-Te-Ching-Lao-Tzu/dp/B09Y9PY8MM/ref=asc_df_B09Y9PY8MM/?tag=googleshopdsk-22&linkCode=df0&hvadid=463597890632&hvpos=&hvnetw=g&hvrand=17054328443778023533&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9071500&hvtargid=pla-1655758595024&psc=1&mcid=a9651d1bfe043298b871895fd37bf363',
+  ),
 ];

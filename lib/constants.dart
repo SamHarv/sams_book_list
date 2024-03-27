@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 // const colour = Color.fromARGB(255, 55, 72, 84);
-const colour = Colors.black;
+const colour = Colors.black87;
 
 const gapW62 = SizedBox(width: 62);
 const gapH16 = SizedBox(height: 16);
