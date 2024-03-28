@@ -55,4 +55,12 @@ List<Book> books = [
     url:
         'https://www.amazon.com.au/Tao-Te-Ching-Lao-Tzu/dp/B09Y9PY8MM/ref=asc_df_B09Y9PY8MM/?tag=googleshopdsk-22&linkCode=df0&hvadid=463597890632&hvpos=&hvnetw=g&hvrand=17054328443778023533&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9071500&hvtargid=pla-1655758595024&psc=1&mcid=a9651d1bfe043298b871895fd37bf363',
   ),
+  Book(
+    title: 'Meditations',
+    author: 'Marcus Aurelius',
+    coverImage: 'images/meditations.jpg',
+    rating: 10,
+    rank: '7',
+    url: 'https://www.amazon.com.au/Meditations-Marcus-Aurelius/dp/0140449337',
+  ),
 ];
