@@ -63,4 +63,13 @@ List<Book> books = [
     rank: '7',
     url: 'https://www.amazon.com.au/Meditations-Marcus-Aurelius/dp/0140449337',
   ),
+  Book(
+    title: 'The Creative Act: A Way of Being',
+    author: 'Rick Rubin',
+    coverImage: 'images/creative_act.jpg',
+    rating: 10,
+    rank: '8',
+    url:
+        'https://www.amazon.com.au/Creative-ACT-Way-Being/dp/0593652886/ref=asc_df_0593652886/?tag=googleshopdsk-22&linkCode=df0&hvadid=411043101484&hvpos=&hvnetw=g&hvrand=329291556172117537&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9071500&hvtargid=pla-1662642829356&psc=1&mcid=7381c47d248536c8b85308b82953dd9a',
+  ),
 ];
