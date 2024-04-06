@@ -72,4 +72,13 @@ List<Book> books = [
     url:
         'https://www.amazon.com.au/Creative-ACT-Way-Being/dp/0593652886/ref=asc_df_0593652886/?tag=googleshopdsk-22&linkCode=df0&hvadid=411043101484&hvpos=&hvnetw=g&hvrand=329291556172117537&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9071500&hvtargid=pla-1662642829356&psc=1&mcid=7381c47d248536c8b85308b82953dd9a',
   ),
+  Book(
+    title: 'Happy: Why More or Less Everything is Absolutely Fine',
+    author: 'Derren Brown',
+    coverImage: 'images/happy.jpg',
+    rating: 10,
+    rank: '9',
+    url:
+        'https://www.amazon.com.au/Happy-More-Less-Everything-Absolutely-ebook/dp/B01HE7TG7Y',
+  ),
 ];
