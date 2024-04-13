@@ -90,4 +90,13 @@ List<Book> books = [
     url:
         'https://www.amazon.com.au/Silence-Thich-Nhat-Hanh/dp/1846044340/ref=asc_df_1846044340/?tag=googleshopdsk-22&linkCode=df0&hvadid=341744703258&hvpos=&hvnetw=g&hvrand=18301406349068073585&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9071500&hvtargid=pla-406163989433&psc=1&mcid=3da4b2891580390b8dc1e8656f2976ad',
   ),
+  Book(
+    title: 'Build: An Unorthodox Guide to Making Things Worth Making',
+    author: 'Tony Fadell',
+    coverImage: 'images/build.jpg',
+    rating: 10,
+    rank: '11',
+    url:
+        'https://www.amazon.com.au/Build-Unorthodox-Guide-Making-Things/dp/0063046067',
+  ),
 ];
