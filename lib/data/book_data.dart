@@ -81,4 +81,13 @@ List<Book> books = [
     url:
         'https://www.amazon.com.au/Happy-More-Less-Everything-Absolutely-ebook/dp/B01HE7TG7Y',
   ),
+  Book(
+    title: 'Silence: The Power of Quiet in a World Full of Noise',
+    author: 'Thich Nhat Hanh',
+    coverImage: 'images/silence.jpg',
+    rating: 10,
+    rank: '10',
+    url:
+        'https://www.amazon.com.au/Silence-Thich-Nhat-Hanh/dp/1846044340/ref=asc_df_1846044340/?tag=googleshopdsk-22&linkCode=df0&hvadid=341744703258&hvpos=&hvnetw=g&hvrand=18301406349068073585&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9071500&hvtargid=pla-406163989433&psc=1&mcid=3da4b2891580390b8dc1e8656f2976ad',
+  ),
 ];
