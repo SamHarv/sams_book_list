@@ -99,4 +99,14 @@ List<Book> books = [
     url:
         'https://www.amazon.com.au/Build-Unorthodox-Guide-Making-Things/dp/0063046067',
   ),
+  Book(
+    title:
+        'Company of One: Why Staying Small is the Next Big Thing for Business',
+    author: 'Paul Jarvis',
+    coverImage: 'images/company_of_one.jpg',
+    rating: 10,
+    rank: '12',
+    url:
+        'https://www.amazon.com.au/Company-One-Staying-Small-Business/dp/0241470463/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=',
+  ),
 ];
