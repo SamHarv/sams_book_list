@@ -109,4 +109,14 @@ List<Book> books = [
     url:
         'https://www.amazon.com.au/Company-One-Staying-Small-Business/dp/0241470463/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=',
   ),
+  Book(
+    title:
+        'Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones',
+    author: 'James Clear',
+    coverImage: 'images/atomic_habits.jpg',
+    rating: 10,
+    rank: '13',
+    url:
+        'https://www.amazon.com.au/Atomic-Habits-Proven-Build-Break/dp/1847941834',
+  ),
 ];
