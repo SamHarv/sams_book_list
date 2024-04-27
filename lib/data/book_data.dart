@@ -119,4 +119,14 @@ List<Book> books = [
     url:
         'https://www.amazon.com.au/Atomic-Habits-Proven-Build-Break/dp/1847941834',
   ),
+  Book(
+    title:
+        'Moonwalking With Einstein: The Art and Science of Remembering Everything',
+    author: 'Joshua Foer',
+    coverImage: 'images/moonwalking.jpg',
+    rating: 10,
+    rank: '14',
+    url:
+        'https://www.amazon.com.au/Moonwalking-Einstein-Science-Remembering-Everything/dp/0141032138/ref=asc_df_0141032138/?tag=googleshopdsk-22&linkCode=df0&hvadid=341792439332&hvpos=&hvnetw=g&hvrand=8828972764181914450&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9071500&hvtargid=pla-456937010843&psc=1&mcid=a118f798662e362197d8768681c8cd70',
+  ),
 ];
