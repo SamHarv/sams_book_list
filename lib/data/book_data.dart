@@ -129,4 +129,12 @@ List<Book> books = [
     url:
         'https://www.amazon.com.au/Moonwalking-Einstein-Science-Remembering-Everything/dp/0141032138/ref=asc_df_0141032138/?tag=googleshopdsk-22&linkCode=df0&hvadid=341792439332&hvpos=&hvnetw=g&hvrand=8828972764181914450&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9071500&hvtargid=pla-456937010843&psc=1&mcid=a118f798662e362197d8768681c8cd70',
   ),
+  Book(
+    title: 'Deep Work: Rules for Focused Success in a Distracted World',
+    author: 'Cal Newport',
+    coverImage: 'images/deep_work.jpg',
+    rating: 10,
+    rank: '15',
+    url: 'https://www.amazon.com.au/Deep-Work-Cal-Newport/dp/1455586692',
+  ),
 ];
