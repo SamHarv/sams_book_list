@@ -137,4 +137,13 @@ List<Book> books = [
     rank: '15',
     url: 'https://www.amazon.com.au/Deep-Work-Cal-Newport/dp/1455586692',
   ),
+  Book(
+    title: 'Thinking, Fast and Slow',
+    author: 'Daniel Kahneman',
+    coverImage: 'images/thinking.jpg',
+    rating: 10,
+    rank: '16',
+    url:
+        'https://www.amazon.com.au/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555',
+  ),
 ];
