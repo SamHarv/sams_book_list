@@ -146,4 +146,14 @@ List<Book> books = [
     url:
         'https://www.amazon.com.au/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555',
   ),
+  Book(
+    title:
+        'Chatter: The Voice in Our Head, Why It Matters, and How to Harness It',
+    author: 'Etham Kross',
+    coverImage: 'images/chatter.jpg',
+    rating: 10,
+    rank: '17',
+    url:
+        'https://www.amazon.com.au/Chatter-Voice-Head-Matters-Harness/dp/0525575235',
+  ),
 ];
