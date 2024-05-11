@@ -165,4 +165,14 @@ List<Book> books = [
     url:
         'https://www.amazon.com.au/Influence-New-Expanded-Psychology-Persuasion-dp-0062937650/dp/0062937650/ref=dp_ob_title_bk',
   ),
+  Book(
+    title:
+        'The Code of The Extraordinary Mind: 10 Unconventional Laws to Redefine Your Life and Succeed On Your Own Terms',
+    author: 'Vishen Lakhiani',
+    coverImage: 'images/the_code.jpg',
+    rating: 10,
+    rank: '19',
+    url:
+        'https://www.amazon.com.au/Code-Extraordinary-Mind-Happiness-Mindfulness/dp/1623367085#:~:text=The%20Code%20of%20the%20Extraordinary%20Mind%2C%20a%20New%20York%20Times,shaped%20by%20conditioning%20and%20habit.',
+  ),
 ];
