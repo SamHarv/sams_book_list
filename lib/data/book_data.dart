@@ -156,4 +156,13 @@ List<Book> books = [
     url:
         'https://www.amazon.com.au/Chatter-Voice-Head-Matters-Harness/dp/0525575235',
   ),
+  Book(
+    title: 'Influence: The Psychology of Persuasion',
+    author: 'Robert Cialdini',
+    coverImage: 'images/influence.jpg',
+    rating: 10,
+    rank: '18',
+    url:
+        'https://www.amazon.com.au/Influence-New-Expanded-Psychology-Persuasion-dp-0062937650/dp/0062937650/ref=dp_ob_title_bk',
+  ),
 ];
