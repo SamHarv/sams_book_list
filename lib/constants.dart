@@ -1,31 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-// const colour = Color.fromARGB(255, 55, 72, 84);
 const colour = Colors.black87;
 
-const gapW62 = SizedBox(width: 62);
+const gapW48 = SizedBox(width: 48);
 const gapH16 = SizedBox(height: 16);
 
-const TextStyle headingStyle = TextStyle(
-  color: Colors.white,
-  fontFamily: 'Roboto',
-  fontSize: 24,
+final headingStyle = GoogleFonts.oxygen(
+  textStyle: const TextStyle(
+    color: Colors.white,
+    fontSize: 24,
+    fontWeight: FontWeight.bold,
+    fontFamily: 'Oxygen',
+  ),
 );
 
-const TextStyle bodyStyle = TextStyle(
-  color: Colors.white,
-  fontFamily: 'Roboto',
-  fontSize: 18,
-);
-
-final appTitle = Text(
-  'Sam\'s Book List',
-  style: GoogleFonts.caveat(
-    textStyle: const TextStyle(
-      color: Colors.white,
-      fontSize: 40,
-      fontFamily: 'Caveat',
-    ),
+final bodyStyle = GoogleFonts.oxygen(
+  textStyle: TextStyle(
+    color: Colors.grey[300],
+    fontSize: 18,
+    fontFamily: 'Oxygen',
   ),
 );
