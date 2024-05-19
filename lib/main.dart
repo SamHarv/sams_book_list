@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '/pages/home_page.dart';
+// import '/pages/home_page.dart';
+import 'pages/demo_animate.dart';
 
 void main() => runApp(const SamsBookList());
 
@@ -10,7 +11,7 @@ class SamsBookList extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: DemoAnimate(), //HomePage(),
     );
   }
 }
