@@ -14,9 +14,15 @@ Future<void> _launchUrl() async {
   }
 }
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  final ScrollController controller = ScrollController();
   @override
   Widget build(BuildContext context) {
     final mediaWidth = MediaQuery.of(context).size.width;
@@ -33,6 +39,7 @@ class HomePage extends StatelessWidget {
           ),
         ),
         child: SingleChildScrollView(
+          controller: controller,
           child: Column(
             children: [
               SizedBox(
@@ -105,7 +112,10 @@ class HomePage extends StatelessWidget {
                   ],
                 ),
               ),
-              BookWidget(books: books),
+              BookWidget(
+                books: books,
+                scrollController: controller,
+              ),
             ],
           ),
         ),
