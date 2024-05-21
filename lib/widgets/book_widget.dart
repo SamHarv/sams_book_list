@@ -23,23 +23,10 @@ class _BookWidgetState extends State<BookWidget> {
   Widget build(BuildContext context) {
     final mediaWidth = MediaQuery.of(context).size.width;
     final mediaHeight = MediaQuery.of(context).size.height;
-    const widgetHeight =
-        500; // This will vary depending on title length and screen width
     return SizedBox(
       width: mediaWidth,
       child: Column(
         children: AnimateList(
-          // autoPlay: false,
-          // interval: const Duration(seconds: 2),
-          // effects: const [
-          //   SlideEffect(
-          //     duration: Duration(seconds: 2),
-          //     curve: Curves.easeIn,
-          //   ),
-          //   FadeEffect(
-          //     duration: Duration(seconds: 2),
-          //   ),
-          // ],
           children: [
             for (int i = 0; i < widget.books.length; i++)
               Padding(
@@ -59,11 +46,10 @@ class _BookWidgetState extends State<BookWidget> {
                         Animate(
                           adapter: ScrollAdapter(
                             widget.scrollController,
-                            begin: mediaHeight / 5 + (i * widgetHeight),
-                            end: mediaHeight / 2 + (i * widgetHeight),
+                            begin: mediaHeight / 5,
+                            end: mediaHeight / 2,
                             direction: Direction.forward,
                           ),
-                          // delay: Duration(seconds: i * 2 + 2),
                           effects: const [
                             SlideEffect(
                               duration: Duration(seconds: 1),
@@ -106,11 +92,10 @@ class _BookWidgetState extends State<BookWidget> {
                         Animate(
                           adapter: ScrollAdapter(
                             widget.scrollController,
-                            begin: mediaHeight / 2 + (i * widgetHeight),
-                            end: (mediaHeight / 5) * 3 + (i * widgetHeight),
+                            begin: mediaHeight / 2,
+                            end: (mediaHeight / 5) * 3,
                             direction: Direction.forward,
                           ),
-                          // delay: Duration(seconds: i * 2 + 3),
                           effects: const [
                             SlideEffect(
                               duration: Duration(seconds: 1),
@@ -139,14 +124,13 @@ class _BookWidgetState extends State<BookWidget> {
                         Animate(
                           adapter: ScrollAdapter(
                             widget.scrollController,
-                            begin: (mediaHeight / 5) * 3 + (i * widgetHeight),
-                            end: (mediaHeight / 6) * 5 + (i * widgetHeight),
+                            begin: (mediaHeight / 5) * 3,
+                            end: (mediaHeight / 6) * 5,
                             direction: Direction.forward,
                           ),
-                          // delay: Duration(seconds: i * 2 + 4),
                           effects: const [
                             SlideEffect(
-                              duration: Duration(seconds: 1),
+                              duration: Duration(seconds: 5),
                               curve: Curves.easeIn,
                             ),
                             FadeEffect(
