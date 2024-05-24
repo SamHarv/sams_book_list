@@ -128,4 +128,11 @@ List<Book> books = [
     coverImage: 'images/7_habits.jpg',
     rank: '20',
   ),
+  Book(
+    title:
+        'The War of Art: Break Through the Blocks and Win Your Inner Creative Battles',
+    author: 'Steven Pressfield',
+    coverImage: 'images/war_of_art.jpg',
+    rank: '21',
+  )
 ];
