@@ -134,5 +134,12 @@ List<Book> books = [
     author: 'Steven Pressfield',
     coverImage: 'images/war_of_art.jpg',
     rank: '21',
-  )
+  ),
+  Book(
+    title:
+        'Never Split the Difference: Negotiating As If Your Life Depended On It',
+    author: 'Chris Voss',
+    coverImage: 'images/never_split.jpg',
+    rank: '22',
+  ),
 ];
