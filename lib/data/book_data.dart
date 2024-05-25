@@ -142,4 +142,10 @@ List<Book> books = [
     coverImage: 'images/never_split.jpg',
     rank: '22',
   ),
+  Book(
+    title: 'Ego is The Enemy: The Fight to Master Our Greatest Opponent',
+    author: 'Ryan Holiday',
+    coverImage: 'images/ego.jpg',
+    rank: '23',
+  ),
 ];
