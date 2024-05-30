@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
         width: mediaWidth > mediaHeight ? mediaWidth : null,
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('images/tree_1.jpeg'),
+            image: AssetImage('images/tree_1.jpg'),
             fit: BoxFit.cover,
           ),
         ),
@@ -66,6 +66,13 @@ class _HomePageState extends State<HomePage> {
                                     fontSize: 70,
                                     fontWeight: FontWeight.bold,
                                     fontFamily: 'Oxygen',
+                                    shadows: [
+                                      Shadow(
+                                        color: Colors.black,
+                                        offset: Offset(2, 2),
+                                        blurRadius: 2,
+                                      ),
+                                    ],
                                   ),
                                 ),
                                 softWrap: true,

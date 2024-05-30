@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import '/pages/home_page.dart';
 // import 'pages/demo_animate.dart';
 
-void main() => runApp(const SamsBookList());
+void main() {
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarColor: Colors.black,
+  ));
+  runApp(const SamsBookList());
+}
 
 class SamsBookList extends StatelessWidget {
   const SamsBookList({super.key});
