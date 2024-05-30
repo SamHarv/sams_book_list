@@ -24,7 +24,7 @@ class _BookWidgetState extends State<BookWidget> {
     final mediaWidth = MediaQuery.of(context).size.width;
     final mediaHeight = MediaQuery.of(context).size.height;
     return SizedBox(
-      width: mediaWidth,
+      width: mediaWidth > 800 ? mediaWidth / 2 : mediaWidth,
       child: Column(
         children: AnimateList(
           children: [
@@ -73,7 +73,9 @@ class _BookWidgetState extends State<BookWidget> {
                               Align(
                                 alignment: Alignment.topLeft,
                                 child: SizedBox(
-                                  width: mediaWidth - 96,
+                                  width: mediaWidth > 800
+                                      ? mediaWidth / 2 - 96
+                                      : mediaWidth - 96,
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
@@ -109,7 +111,9 @@ class _BookWidgetState extends State<BookWidget> {
                             children: [
                               gapW48,
                               SizedBox(
-                                width: mediaWidth - 110,
+                                width: mediaWidth > 800
+                                    ? mediaWidth / 2 - 110
+                                    : mediaWidth - 110,
                                 child: Text(
                                   widget.books[i].author,
                                   style: bodyStyle,
