@@ -15,9 +15,19 @@ class SamsBookList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      theme: ThemeData.dark().copyWith(
+        primaryColor: Colors.black,
+        scaffoldBackgroundColor: Colors.grey[900],
+        appBarTheme: const AppBarTheme(
+          color: Colors.black,
+          systemOverlayStyle: SystemUiOverlayStyle(
+            statusBarColor: Colors.black,
+          ),
+        ),
+      ),
+      home: const HomePage(),
     );
   }
 }

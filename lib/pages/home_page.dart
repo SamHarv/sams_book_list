@@ -123,6 +123,29 @@ class _HomePageState extends State<HomePage> {
                 books: books,
                 scrollController: controller,
               ),
+              SizedBox(
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Text(
+                    "Under Construction...",
+                    style: GoogleFonts.oxygen(
+                      textStyle: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        fontFamily: 'Oxygen',
+                        shadows: [
+                          Shadow(
+                            color: Colors.black,
+                            offset: Offset(2, 2),
+                            blurRadius: 2,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
