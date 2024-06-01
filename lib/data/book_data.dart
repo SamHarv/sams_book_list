@@ -148,4 +148,12 @@ List<Book> books = [
     coverImage: 'images/ego.jpg',
     rank: '23',
   ),
+  Book(
+    title:
+        'Getting Real: The Smarter, Faster, Easier Way to Build a Successful '
+        'Web Application',
+    author: 'Jason Fried, David Heinemeier Hansson',
+    coverImage: 'images/getting_real.jpg',
+    rank: '24',
+  )
 ];

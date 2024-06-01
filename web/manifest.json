@@ -1,6 +1,6 @@
 {
-    "name": "sams_book_list",
-    "short_name": "sams_book_list",
+    "name": "Sam's Booklist",
+    "short_name": "Sam's Booklist",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#hexcode",
