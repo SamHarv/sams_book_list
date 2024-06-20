@@ -155,5 +155,12 @@ List<Book> books = [
     author: 'Jason Fried, David Heinemeier Hansson',
     coverImage: 'images/getting_real.jpg',
     rank: '24',
-  )
+  ),
+  Book(
+    title: 'Tuesday\'s with Morrie: An Old Man, a Young Man, and Life\'s '
+        'Greatest Lesson',
+    author: 'Mitch Albom',
+    coverImage: 'images/tuesdays.jpg',
+    rank: '25',
+  ),
 ];
