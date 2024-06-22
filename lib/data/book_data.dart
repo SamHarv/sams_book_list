@@ -169,4 +169,10 @@ List<Book> books = [
     coverImage: 'images/quiet.jpg',
     rank: '26',
   ),
+  Book(
+    title: 'Extreme Ownership: How U.S. Navy SEALs Lead and Win',
+    author: 'Jocko Willink',
+    coverImage: 'images/extreme_ownership.jpg',
+    rank: '27',
+  ),
 ];
