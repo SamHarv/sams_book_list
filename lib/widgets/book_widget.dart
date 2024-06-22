@@ -65,7 +65,7 @@ class _BookWidgetState extends State<BookWidget> {
                               SizedBox(
                                 width: 40,
                                 child: Text(
-                                  widget.books[i].rank,
+                                  (i + 1).toString(),
                                   style: headingStyle,
                                 ),
                               ),
