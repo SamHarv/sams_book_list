@@ -163,4 +163,10 @@ List<Book> books = [
     coverImage: 'images/tuesdays.jpg',
     rank: '25',
   ),
+  Book(
+    title: 'Quiet: The Power of Introverts in a World That Can\'t Stop Talking',
+    author: 'Susan Cain',
+    coverImage: 'images/quiet.jpg',
+    rank: '26',
+  ),
 ];
