@@ -148,5 +148,11 @@ List<Book> books = [
     author: 'Jocko Willink',
     coverImage: 'images/extreme_ownership.jpg',
   ),
-  // 28
+  Book(
+    title: 'The One Thing: The Surprisingly Simple Truth Behind Extraordinary '
+        'Results',
+    author: 'Gary Keller & Jay Papasan',
+    coverImage: 'images/the_one_thing.jpg',
+  ),
+  // 29
 ];
