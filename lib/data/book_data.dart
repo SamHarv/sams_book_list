@@ -159,5 +159,10 @@ List<Book> books = [
     author: 'Carol S. Dweck',
     coverImage: 'images/mindset.jpg',
   ),
+  Book(
+    title: 'The Power of Now: A Guide to Spiritual Enlightenment',
+    author: 'Eckhart Tolle',
+    coverImage: 'images/power_of_now.jpg',
+  ),
   // 30
 ];
