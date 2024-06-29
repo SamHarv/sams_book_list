@@ -154,5 +154,10 @@ List<Book> books = [
     author: 'Gary Keller & Jay Papasan',
     coverImage: 'images/the_one_thing.jpg',
   ),
-  // 29
+  Book(
+    title: 'Mindset: Changing The Way You Think To Fulfil Your Potential',
+    author: 'Carol S. Dweck',
+    coverImage: 'images/mindset.jpg',
+  ),
+  // 30
 ];
