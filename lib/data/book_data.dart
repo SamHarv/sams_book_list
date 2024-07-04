@@ -164,5 +164,11 @@ List<Book> books = [
     author: 'Eckhart Tolle',
     coverImage: 'images/power_of_now.jpg',
   ),
-  // 30
+  Book(
+    title: 'So Good They Can\'t Ignore You: Why Skills Trump Passion in the '
+        'Quest for Work You Love',
+    author: 'Cal Newport',
+    coverImage: 'images/so_good.jpg',
+  ),
+  // 32
 ];
