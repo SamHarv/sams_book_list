@@ -170,5 +170,10 @@ List<Book> books = [
     author: 'Cal Newport',
     coverImage: 'images/so_good.jpg',
   ),
-  // 32
+  Book(
+    title: 'Zero to One: Notes on Startups, or How to Build the Future',
+    author: 'Peter Thiel',
+    coverImage: 'images/zero_to_one.jpg',
+  ),
+  // 33
 ];
