@@ -175,5 +175,10 @@ List<Book> books = [
     author: 'Peter Thiel',
     coverImage: 'images/zero_to_one.jpg',
   ),
-  // 33
+  Book(
+    title: 'Ikigai: The Japanese Secret to a Long and Happy Life',
+    author: 'Héctor García, Francesc Miralles',
+    coverImage: 'images/ikigai.jpg',
+  ),
+  // 34
 ];
