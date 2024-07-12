@@ -180,5 +180,11 @@ List<Book> books = [
     author: 'Héctor García, Francesc Miralles',
     coverImage: 'images/ikigai.jpg',
   ),
-  // 34
+  Book(
+    title: 'The Elegant Universe: Superstrings, Hidden Dimensions, and the '
+        'Quest for the Ultimate Theory',
+    author: 'Brian Greene',
+    coverImage: 'images/elegant.jpg',
+  ),
+  // 35
 ];
