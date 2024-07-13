@@ -186,5 +186,10 @@ List<Book> books = [
     author: 'Brian Greene',
     coverImage: 'images/elegant.jpg',
   ),
-  // 35
+  Book(
+    title: 'Superintelligence: Paths, Dangers, Strategies',
+    author: 'Nick Bostrom',
+    coverImage: 'images/superintelligence.jpg',
+  ),
+  // 36
 ];
