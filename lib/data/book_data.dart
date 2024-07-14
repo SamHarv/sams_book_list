@@ -191,5 +191,10 @@ List<Book> books = [
     author: 'Nick Bostrom',
     coverImage: 'images/superintelligence.jpg',
   ),
-  // 36
+  Book(
+    title: 'Can\'t Hurt Me: Master Your Mind and Defy the Odds',
+    author: 'David Goggins',
+    coverImage: 'images/cant_hurt_me.jpg',
+  ),
+  // 37
 ];
