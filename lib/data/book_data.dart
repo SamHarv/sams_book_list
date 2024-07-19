@@ -196,5 +196,10 @@ List<Book> books = [
     author: 'David Goggins',
     coverImage: 'images/cant_hurt_me.jpg',
   ),
-  // 37
+  Book(
+    title: 'Rework: Change The Way You Work Forever',
+    author: 'Jason Fried, David Heinemeier Hansson',
+    coverImage: 'images/rework.jpg',
+  ),
+  // 38
 ];
