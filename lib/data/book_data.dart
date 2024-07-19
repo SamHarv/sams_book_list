@@ -201,5 +201,10 @@ List<Book> books = [
     author: 'Jason Fried, David Heinemeier Hansson',
     coverImage: 'images/rework.jpg',
   ),
-  // 38
+  Book(
+    title: 'Antifragile: Things That Gain from Disorder',
+    author: 'Nassim Nicholas Taleb',
+    coverImage: 'images/antifragile.jpg',
+  ),
+  // 39
 ];
