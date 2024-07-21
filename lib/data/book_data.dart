@@ -206,5 +206,10 @@ List<Book> books = [
     author: 'Nassim Nicholas Taleb',
     coverImage: 'images/antifragile.jpg',
   ),
-  // 39
+  // 40
+  Book(
+    title: 'Four Thousand Weeks: Time Management for Mortals',
+    author: 'Oliver Burkeman',
+    coverImage: 'images/four_thousand.jpg',
+  ),
 ];
