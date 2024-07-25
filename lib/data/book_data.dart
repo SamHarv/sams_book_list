@@ -206,10 +206,14 @@ List<Book> books = [
     author: 'Nassim Nicholas Taleb',
     coverImage: 'images/antifragile.jpg',
   ),
-  // 40
   Book(
     title: 'Four Thousand Weeks: Time Management for Mortals',
     author: 'Oliver Burkeman',
     coverImage: 'images/four_thousand.jpg',
+  ),
+  Book(
+    title: 'Smart Brevity: The Power of Saying More with Less',
+    author: 'Jim VandeHei, Mike Allen & Roy Schwartz',
+    coverImage: 'images/smart_brevity.jpg',
   ),
 ];
