@@ -216,4 +216,9 @@ List<Book> books = [
     author: 'Jim VandeHei, Mike Allen & Roy Schwartz',
     coverImage: 'images/smart_brevity.jpg',
   ),
+  Book(
+    title: 'The Personal MBA: Master the Art of Business',
+    author: 'Josh Kaufman',
+    coverImage: 'images/personal_MBA.jpg',
+  ),
 ];
