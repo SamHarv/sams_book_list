@@ -221,4 +221,9 @@ List<Book> books = [
     author: 'Josh Kaufman',
     coverImage: 'images/personal_MBA.jpg',
   ),
+  Book(
+    title: 'Sapiens: A Brief History of Humankind',
+    author: 'Yuval Noah Harari',
+    coverImage: 'images/sapiens.jpg',
+  ),
 ];
