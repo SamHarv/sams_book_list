@@ -226,4 +226,9 @@ List<Book> books = [
     author: 'Yuval Noah Harari',
     coverImage: 'images/sapiens.jpg',
   ),
+  Book(
+    title: 'Quantum Supremacy',
+    author: 'Michio Kaku',
+    coverImage: 'images/quantum_supremacy.jpg',
+  ),
 ];
