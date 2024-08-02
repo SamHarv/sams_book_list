@@ -231,4 +231,9 @@ List<Book> books = [
     author: 'Michio Kaku',
     coverImage: 'images/quantum_supremacy.jpg',
   ),
+  Book(
+    title: 'The First 20 Hours: How to Learn Anything... Fast!',
+    author: 'Josh Kaufman',
+    coverImage: 'images/first_20_hours.jpg',
+  ),
 ];
