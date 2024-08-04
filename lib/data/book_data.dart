@@ -236,4 +236,9 @@ List<Book> books = [
     author: 'Josh Kaufman',
     coverImage: 'images/first_20_hours.jpg',
   ),
+  Book(
+    title: 'Start with Why: How Great Leaders Inspire Everyone to Take Action',
+    author: 'Simon Sinek',
+    coverImage: 'images/start_with_why.jpg',
+  ),
 ];
