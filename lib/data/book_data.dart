@@ -246,4 +246,10 @@ List<Book> books = [
     author: 'Angela Duckworth',
     coverImage: 'images/grit.jpg',
   ),
+  Book(
+    title: 'The Obstacle is The Way: The Ancient Art of Turning Adversity to '
+        'Advantage',
+    author: 'Ryan Holiday',
+    coverImage: 'images/obstacle_is_the_way.jpg',
+  ),
 ];
