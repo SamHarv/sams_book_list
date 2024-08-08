@@ -241,4 +241,9 @@ List<Book> books = [
     author: 'Simon Sinek',
     coverImage: 'images/start_with_why.jpg',
   ),
+  Book(
+    title: 'Grit: The Power of Passion and Perseverance',
+    author: 'Angela Duckworth',
+    coverImage: 'images/grit.jpg',
+  ),
 ];
