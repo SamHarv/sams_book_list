@@ -252,4 +252,10 @@ List<Book> books = [
     author: 'Ryan Holiday',
     coverImage: 'images/obstacle_is_the_way.jpg',
   ),
+  Book(
+    title: 'Creativity, Inc.: Overcoming the Unseen Forces That Stand in the '
+        'Way of True Inspiration',
+    author: 'Ed Catmull, Amy Wallace',
+    coverImage: 'images/creativity_inc.jpg',
+  ),
 ];
