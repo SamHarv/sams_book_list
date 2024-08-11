@@ -258,4 +258,9 @@ List<Book> books = [
     author: 'Ed Catmull, Amy Wallace',
     coverImage: 'images/creativity_inc.jpg',
   ),
+  Book(
+    title: 'Death by Black Hole and Other Cosmic Quandaries',
+    author: 'Neil deGrasse Tyson',
+    coverImage: 'images/death_by_black_hole.jpg',
+  ),
 ];
