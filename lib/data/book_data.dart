@@ -263,4 +263,9 @@ List<Book> books = [
     author: 'Neil deGrasse Tyson',
     coverImage: 'images/death_by_black_hole.jpg',
   ),
+  Book(
+    title: 'Outgrowing God: A Beginner\'s Guide',
+    author: 'Richard Dawkins',
+    coverImage: 'images/outgrowing_god.jpg',
+  ),
 ];
