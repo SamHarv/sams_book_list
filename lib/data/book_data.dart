@@ -268,4 +268,9 @@ List<Book> books = [
     author: 'Richard Dawkins',
     coverImage: 'images/outgrowing_god.jpg',
   ),
+  Book(
+    title: 'Elon Musk',
+    author: 'Walter Isaacson',
+    coverImage: 'images/elon_musk.jpg',
+  ),
 ];
