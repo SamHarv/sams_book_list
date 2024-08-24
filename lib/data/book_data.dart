@@ -273,4 +273,9 @@ List<Book> books = [
     author: 'Walter Isaacson',
     coverImage: 'images/elon_musk.jpg',
   ),
+  Book(
+    title: 'Steve Jobs',
+    author: 'Walter Isaacson',
+    coverImage: 'images/steve_jobs.jpg',
+  ),
 ];
