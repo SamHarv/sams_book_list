@@ -283,4 +283,9 @@ List<Book> books = [
     author: 'Steven Levy',
     coverImage: 'images/hackers.jpg',
   ),
+  Book(
+    title: 'Surely you\'re joking, Mr. Feynman!',
+    author: 'Richard P. Feynman',
+    coverImage: 'images/feynman.jpg',
+  ),
 ];
