@@ -288,4 +288,9 @@ List<Book> books = [
     author: 'Richard P. Feynman',
     coverImage: 'images/feynman.jpg',
   ),
+  Book(
+    title: 'Making Money, Made Simple',
+    author: 'Noel Whittaker',
+    coverImage: 'images/making_money.jpg',
+  )
 ];
