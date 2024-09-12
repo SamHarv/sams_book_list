@@ -292,5 +292,11 @@ List<Book> books = [
     title: 'Making Money, Made Simple',
     author: 'Noel Whittaker',
     coverImage: 'images/making_money.jpg',
-  )
+  ),
+  Book(
+    title: 'The Lean Startup: How Constant Innovation Creates Radically '
+        'Successful Businesses',
+    author: 'Eric Ries',
+    coverImage: 'images/lean_startup.jpg',
+  ),
 ];
