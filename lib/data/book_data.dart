@@ -299,4 +299,10 @@ List<Book> books = [
     author: 'Eric Ries',
     coverImage: 'images/lean_startup.jpg',
   ),
+  Book(
+    title: 'Enlightenment Now: The Case for Reason, Science, Humanism, and '
+        'Progress',
+    author: 'Steven Pinker',
+    coverImage: 'images/enlightenment_now.jpg',
+  ),
 ];
