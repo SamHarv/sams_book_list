@@ -305,4 +305,9 @@ List<Book> books = [
     author: 'Steven Pinker',
     coverImage: 'images/enlightenment_now.jpg',
   ),
+  Book(
+    title: 'Outlive: The Science & Art of Longevity',
+    author: 'Peter Attia',
+    coverImage: 'images/outlive.jpg',
+  ),
 ];
