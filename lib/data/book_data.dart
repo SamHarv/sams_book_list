@@ -280,6 +280,11 @@ List<Book> books = [
     coverImage: 'images/outlive.jpg',
   ),
   // Slow Productivity
+  Book(
+    title: 'Slow Productivity: The Lost Art of Accomplishment Without Burnout',
+    author: 'Cal Newport',
+    coverImage: 'images/slow_productivity.jpg',
+  ),
   // Astrophysics for People in a Hurry
   // Breath
   // Stillness is the key
@@ -335,6 +340,7 @@ List<Book> books = [
   ),
   // How to make friends and influence people
   // The hungry brain
+  // Who moved my cheese
   Book(
     title: 'The Personal MBA: Master the Art of Business',
     author: 'Josh Kaufman',
@@ -369,5 +375,4 @@ List<Book> books = [
   // Hooked
   // Dare to lead
   // The wim hof method
-  // Tiny habits
 ];
