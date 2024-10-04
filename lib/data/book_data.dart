@@ -289,7 +289,11 @@ List<Book> books = [
     author: 'Neil deGrasse Tyson',
     coverImage: 'images/astrophysics.jpg',
   ),
-  // Breath
+  Book(
+    title: 'Breath: The New Science of a Lost Art',
+    author: 'James Nestor',
+    coverImage: 'images/breath.jpg',
+  ),
   // Stillness is the key
   Book(
     title: 'The Obstacle is The Way: The Ancient Art of Turning Adversity to '
