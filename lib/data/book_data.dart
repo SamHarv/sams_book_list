@@ -279,13 +279,16 @@ List<Book> books = [
     author: 'Peter Attia',
     coverImage: 'images/outlive.jpg',
   ),
-  // Slow Productivity
   Book(
     title: 'Slow Productivity: The Lost Art of Accomplishment Without Burnout',
     author: 'Cal Newport',
     coverImage: 'images/slow_productivity.jpg',
   ),
-  // Astrophysics for People in a Hurry
+  Book(
+    title: 'Astrophysics for People in a Hurry',
+    author: 'Neil deGrasse Tyson',
+    coverImage: 'images/astrophysics.jpg',
+  ),
   // Breath
   // Stillness is the key
   Book(
