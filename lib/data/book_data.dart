@@ -294,7 +294,11 @@ List<Book> books = [
     author: 'James Nestor',
     coverImage: 'images/breath.jpg',
   ),
-  // Stillness is the key
+  Book(
+    title: 'Stillness is the Key: An Ancient Strategy for Modern Life',
+    author: 'Ryan Holiday',
+    coverImage: 'images/stillness.jpg',
+  ),
   Book(
     title: 'The Obstacle is The Way: The Ancient Art of Turning Adversity to '
         'Advantage',
