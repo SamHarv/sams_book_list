@@ -305,6 +305,12 @@ List<Book> books = [
     author: 'Ryan Holiday',
     coverImage: 'images/obstacle_is_the_way.jpg',
   ),
+  Book(
+    title: 'The Future of Humanity: Terraforming Mars, Interstellar Travel, '
+        'Immortality, and Our Destiny Beyond Earth',
+    author: 'Michio Kaku',
+    coverImage: 'images/future_of_humanity.jpg',
+  ),
   // The future of humanity
   // The future of the mind
   Book(
