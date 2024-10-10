@@ -311,7 +311,12 @@ List<Book> books = [
     author: 'Michio Kaku',
     coverImage: 'images/future_of_humanity.jpg',
   ),
-  // The future of humanity
+  Book(
+    title: 'The Future of the Mind: The Scientific Quest to Understand, '
+        'Enhance, and Empower the Mind',
+    author: 'Michio Kaku',
+    coverImage: 'images/future_of_the_mind.jpg',
+  ),
   // The future of the mind
   Book(
     title: 'Ikigai: The Japanese Secret to a Long and Happy Life',
