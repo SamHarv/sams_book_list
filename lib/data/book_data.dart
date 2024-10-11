@@ -317,7 +317,6 @@ List<Book> books = [
     author: 'Michio Kaku',
     coverImage: 'images/future_of_the_mind.jpg',
   ),
-  // The future of the mind
   Book(
     title: 'Ikigai: The Japanese Secret to a Long and Happy Life',
     author: 'Héctor García, Francesc Miralles',
@@ -330,7 +329,11 @@ List<Book> books = [
     coverImage: 'images/lean_startup.jpg',
   ),
   //60
-  // Homo Deus
+  Book(
+    title: 'Homo Deus: A Brief History of Tomorrow',
+    author: 'Yuval Noah Harari',
+    coverImage: 'images/homo_deus.jpg',
+  ),
   Book(
     title: 'Elon Musk',
     author: 'Walter Isaacson',
