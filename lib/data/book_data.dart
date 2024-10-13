@@ -344,7 +344,11 @@ List<Book> books = [
     author: 'Walter Isaacson',
     coverImage: 'images/steve_jobs.jpg',
   ),
-  // Mud, sweat and tears
+  Book(
+    title: 'Mud, Sweat and Tears',
+    author: 'Bear Grylls',
+    coverImage: 'images/mud_sweat_tears.jpg',
+  ),
   Book(
     title: 'Quantum Supremacy',
     author: 'Michio Kaku',
