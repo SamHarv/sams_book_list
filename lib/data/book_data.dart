@@ -355,6 +355,11 @@ List<Book> books = [
     coverImage: 'images/quantum_supremacy.jpg',
   ),
   // Outliers
+  Book(
+    title: 'Outliers: The Story of Success',
+    author: 'Malcolm Gladwell',
+    coverImage: 'images/outliers.jpg',
+  ),
   // Freakonomics
   // Radical Candor
   // This is marketing
