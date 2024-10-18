@@ -354,13 +354,17 @@ List<Book> books = [
     author: 'Michio Kaku',
     coverImage: 'images/quantum_supremacy.jpg',
   ),
-  // Outliers
   Book(
     title: 'Outliers: The Story of Success',
     author: 'Malcolm Gladwell',
     coverImage: 'images/outliers.jpg',
   ),
-  // Freakonomics
+  Book(
+    title:
+        'Freakonomics: A Rogue Economist Explores the Hidden Side of Everything',
+    author: 'Steven D. Levitt & Stephen J. Dubner',
+    coverImage: 'images/freakonomics.jpg',
+  ),
   // Radical Candor
   // This is marketing
   // Daring greatly
