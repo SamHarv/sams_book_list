@@ -365,7 +365,11 @@ List<Book> books = [
     author: 'Steven D. Levitt & Stephen J. Dubner',
     coverImage: 'images/freakonomics.jpg',
   ),
-  // Radical Candor
+  Book(
+    title: 'Radical Candor: How to Get What You Want by Saying What You Mean',
+    author: 'Kim Scott',
+    coverImage: 'images/radical_candor.jpg',
+  ),
   // This is marketing
   // Daring greatly
   //70
