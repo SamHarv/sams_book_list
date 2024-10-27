@@ -231,6 +231,12 @@ List<Book> books = [
     coverImage: 'images/tuesdays.jpg',
   ),
   Book(
+    title:
+        'Nexus: A Brief History of Information Networks from the Stone Age to AI',
+    author: 'Yuval Noah Harari',
+    coverImage: 'images/nexus.jpg',
+  ),
+  Book(
     title: 'The One Thing: The Surprisingly Simple Truth Behind Extraordinary '
         'Results',
     author: 'Gary Keller & Jay Papasan',
@@ -268,12 +274,12 @@ List<Book> books = [
     author: 'Vishen Lakhiani',
     coverImage: 'images/the_code.jpg',
   ),
+  //50
   Book(
     title: 'Four Thousand Weeks: Time Management for Mortals',
     author: 'Oliver Burkeman',
     coverImage: 'images/four_thousand.jpg',
   ),
-  //50
   Book(
     title: 'Outlive: The Science & Art of Longevity',
     author: 'Peter Attia',
@@ -322,13 +328,13 @@ List<Book> books = [
     author: 'Héctor García, Francesc Miralles',
     coverImage: 'images/ikigai.jpg',
   ),
+  //60
   Book(
     title: 'The Lean Startup: How Constant Innovation Creates Radically '
         'Successful Businesses',
     author: 'Eric Ries',
     coverImage: 'images/lean_startup.jpg',
   ),
-  //60
   Book(
     title: 'Homo Deus: A Brief History of Tomorrow',
     author: 'Yuval Noah Harari',
@@ -371,8 +377,8 @@ List<Book> books = [
     coverImage: 'images/radical_candor.jpg',
   ),
   // This is marketing
-  // Daring greatly
   //70
+  // Daring greatly
   // The black swan
   // Greenlights
   Book(
@@ -391,8 +397,8 @@ List<Book> books = [
   // Human compatible
   // TED talks
   // Pitch anything
-  // eat that frog
   //80
+  // eat that frog
   // Show your work
   // courage is calling
   // discipline is destiny
@@ -406,8 +412,8 @@ List<Book> books = [
     coverImage: 'images/making_money.jpg',
   ),
   // The precipice
-  // The art of thinking clearly
   //90
+  // The art of thinking clearly
   // Digital minimalism
   // ultramarathon man
   // Factfulness
@@ -416,5 +422,4 @@ List<Book> books = [
   // Indistracitable
   // Hooked
   // Dare to lead
-  // The wim hof method
 ];
