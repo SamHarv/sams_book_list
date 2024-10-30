@@ -376,7 +376,11 @@ List<Book> books = [
     author: 'Kim Scott',
     coverImage: 'images/radical_candor.jpg',
   ),
-  // This is marketing
+  Book(
+    title: 'This is Marketing: You Can\'t Be Seen Until You Learn to See',
+    author: 'Seth Godin',
+    coverImage: 'images/this_is_marketing.jpg',
+  ),
   //70
   // Daring greatly
   // The black swan
