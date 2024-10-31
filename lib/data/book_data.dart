@@ -382,7 +382,12 @@ List<Book> books = [
     coverImage: 'images/this_is_marketing.jpg',
   ),
   //70
-  // Daring greatly
+  Book(
+    title:
+        'Daring Greatly: How the Courage to be Vulnerable Transforms the Way We Live, Love, Parent, and Lead',
+    author: 'Brené Brown',
+    coverImage: 'images/daring_greatly.jpg',
+  ),
   // The black swan
   // Greenlights
   Book(
