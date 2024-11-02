@@ -388,7 +388,11 @@ List<Book> books = [
     author: 'Brené Brown',
     coverImage: 'images/daring_greatly.jpg',
   ),
-  // The black swan
+  Book(
+    title: 'The Black Swan: The Impact of the Highly Improbable',
+    author: 'Nassim Nicholas Taleb',
+    coverImage: 'images/black_swan.jpg',
+  ),
   // Greenlights
   Book(
     title: 'Surely you\'re joking, Mr. Feynman!',
