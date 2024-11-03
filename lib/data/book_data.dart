@@ -393,7 +393,12 @@ List<Book> books = [
     author: 'Nassim Nicholas Taleb',
     coverImage: 'images/black_swan.jpg',
   ),
-  // Greenlights
+  Book(
+    title:
+        'Greenlights: Raucous stories and outlaw wisdom from the Academy Award-winning actor',
+    author: 'Matthew McConaughey',
+    coverImage: 'images/greenlights.jpg',
+  ),
   Book(
     title: 'Surely you\'re joking, Mr. Feynman!',
     author: 'Richard P. Feynman',
