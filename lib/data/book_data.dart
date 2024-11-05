@@ -404,7 +404,11 @@ List<Book> books = [
     author: 'Richard P. Feynman',
     coverImage: 'images/feynman.jpg',
   ),
-  // How to make friends and influence people
+  Book(
+    title: 'How to Win Friends and Influence People',
+    author: 'Dale Carnegie',
+    coverImage: 'images/friends_influence.jpg',
+  ),
   // The hungry brain
   // Who moved my cheese
   Book(
