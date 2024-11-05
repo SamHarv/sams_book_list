@@ -409,7 +409,11 @@ List<Book> books = [
     author: 'Dale Carnegie',
     coverImage: 'images/friends_influence.jpg',
   ),
-  // The hungry brain
+  Book(
+    title: 'The Hungry Brain: Outsmarting the Instincts That Make Us Overeat',
+    author: 'Stephan J. Guyenet',
+    coverImage: 'images/hungry_brain.jpg',
+  ),
   // Who moved my cheese
   Book(
     title: 'The Personal MBA: Master the Art of Business',
