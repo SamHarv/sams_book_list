@@ -414,7 +414,11 @@ List<Book> books = [
     author: 'Stephan J. Guyenet',
     coverImage: 'images/hungry_brain.jpg',
   ),
-  // Who moved my cheese
+  Book(
+    title: 'Who Moved My Cheese?',
+    author: 'Spencer Johnson',
+    coverImage: 'images/moved_cheese.jpg',
+  ),
   Book(
     title: 'The Personal MBA: Master the Art of Business',
     author: 'Josh Kaufman',
