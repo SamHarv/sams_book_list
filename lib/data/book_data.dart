@@ -424,7 +424,12 @@ List<Book> books = [
     author: 'Josh Kaufman',
     coverImage: 'images/personal_MBA.jpg',
   ),
-  // Human compatible
+  Book(
+    title:
+        'Human Compatible: Artificial Intelligence and the Problem of Control',
+    author: 'Stuart Russell',
+    coverImage: 'images/human_compatible.jpg',
+  ),
   // TED talks
   // Pitch anything
   //80
