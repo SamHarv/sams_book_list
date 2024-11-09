@@ -430,9 +430,13 @@ List<Book> books = [
     author: 'Stuart Russell',
     coverImage: 'images/human_compatible.jpg',
   ),
-  // TED talks
-  // Pitch anything
+  Book(
+    title: 'TED Talks: The Official TED Guide to Public Speaking',
+    author: 'Chris Anderson',
+    coverImage: 'images/ted_talks.jpg',
+  ),
   //80
+  // Pitch anything
   // eat that frog
   // Show your work
   // courage is calling
@@ -446,8 +450,8 @@ List<Book> books = [
     author: 'Noel Whittaker',
     coverImage: 'images/making_money.jpg',
   ),
-  // The precipice
   //90
+  // The precipice
   // The art of thinking clearly
   // Digital minimalism
   // ultramarathon man
