@@ -436,7 +436,12 @@ List<Book> books = [
     coverImage: 'images/ted_talks.jpg',
   ),
   //80
-  // Pitch anything
+  Book(
+    title: 'Pitch Anything: An Innovative Method for Presenting, Persuading, '
+        'and Winning the Deal',
+    author: 'Oren Klaff',
+    coverImage: 'images/pitch_anything.jpg',
+  ),
   // eat that frog
   // Show your work
   // courage is calling
