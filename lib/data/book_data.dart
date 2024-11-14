@@ -442,7 +442,11 @@ List<Book> books = [
     author: 'Oren Klaff',
     coverImage: 'images/pitch_anything.jpg',
   ),
-  // eat that frog
+  Book(
+    title: 'Eat That Frog! Get More of the Important Things Done - Today!',
+    author: 'Brian Tracy',
+    coverImage: 'images/eat_that_frog.jpg',
+  ),
   // Show your work
   // courage is calling
   // discipline is destiny
