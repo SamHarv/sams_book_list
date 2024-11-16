@@ -453,7 +453,11 @@ List<Book> books = [
     author: 'Austin Kleon',
     coverImage: 'images/show_your_work.jpg',
   ),
-  // courage is calling
+  Book(
+    title: 'Courage is Calling: Fortune Favors the Brave',
+    author: 'Ryan Holiday',
+    coverImage: 'images/courage_is_calling.jpg',
+  ),
   // discipline is destiny
   // A short history of nearly everything
   // Losing my virginity
