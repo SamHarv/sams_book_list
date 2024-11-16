@@ -447,7 +447,12 @@ List<Book> books = [
     author: 'Brian Tracy',
     coverImage: 'images/eat_that_frog.jpg',
   ),
-  // Show your work
+  Book(
+    title:
+        'Show Your Work! 10 Ways to Share Your Creativity and Get Discovered',
+    author: 'Austin Kleon',
+    coverImage: 'images/show_your_work.jpg',
+  ),
   // courage is calling
   // discipline is destiny
   // A short history of nearly everything
