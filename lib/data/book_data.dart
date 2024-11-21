@@ -458,7 +458,11 @@ List<Book> books = [
     author: 'Ryan Holiday',
     coverImage: 'images/courage_is_calling.jpg',
   ),
-  // discipline is destiny
+  Book(
+    title: 'Discipline is Destiny: The Power of Self-Control',
+    author: 'Ryan Holiday',
+    coverImage: 'images/discipline_is_destiny.jpg',
+  ),
   // A short history of nearly everything
   // Losing my virginity
   // Better - atul
