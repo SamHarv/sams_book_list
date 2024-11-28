@@ -463,7 +463,11 @@ List<Book> books = [
     author: 'Ryan Holiday',
     coverImage: 'images/discipline_is_destiny.jpg',
   ),
-  // A short history of nearly everything
+  Book(
+    title: 'A Short History of Nearly Everything',
+    author: 'Bill Bryson',
+    coverImage: 'images/nearly_everything.jpg',
+  ),
   // Losing my virginity
   // Better - atul
   // why we sleep
