@@ -468,7 +468,12 @@ List<Book> books = [
     author: 'Bill Bryson',
     coverImage: 'images/nearly_everything.jpg',
   ),
-  // Losing my virginity
+  Book(
+    title: 'Losing My Virginity: How I Survived, Had Fun, and Made a Fortune '
+        'Doing Business My Way',
+    author: 'Richard Branson',
+    coverImage: 'images/losing_my_virginity.jpg',
+  ),
   // Better - atul
   // why we sleep
   Book(
