@@ -474,7 +474,11 @@ List<Book> books = [
     author: 'Richard Branson',
     coverImage: 'images/losing_my_virginity.jpg',
   ),
-  // Better - atul
+  Book(
+    title: 'Better: A Surgeon\'s Notes on Performance',
+    author: 'Atul Gawande',
+    coverImage: 'images/better.jpg',
+  ),
   // why we sleep
   Book(
     title: 'Making Money, Made Simple',
