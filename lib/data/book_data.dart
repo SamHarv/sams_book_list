@@ -479,7 +479,11 @@ List<Book> books = [
     author: 'Atul Gawande',
     coverImage: 'images/better.jpg',
   ),
-  // why we sleep
+  Book(
+    title: 'Why We Sleep: The New Science of Sleep and Dreams',
+    author: 'Matthew Walker',
+    coverImage: 'images/why_we_sleep.jpg',
+  ),
   Book(
     title: 'Making Money, Made Simple',
     author: 'Noel Whittaker',
