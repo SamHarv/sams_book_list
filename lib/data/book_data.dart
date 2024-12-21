@@ -495,7 +495,11 @@ List<Book> books = [
     author: 'Toby Ord',
     coverImage: 'images/the_precipice.jpg',
   ),
-  // The art of thinking clearly
+  Book(
+    title: 'The Art of Thinking Clearly',
+    author: 'Rolf Dobelli',
+    coverImage: 'images/thinking_clearly.jpg',
+  ),
   // Digital minimalism
   // ultramarathon man
   // Factfulness
