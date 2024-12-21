@@ -490,7 +490,11 @@ List<Book> books = [
     coverImage: 'images/making_money.jpg',
   ),
   //90
-  // The precipice
+  Book(
+    title: 'The Precipice: Existential Risk and the Future of Humanity',
+    author: 'Toby Ord',
+    coverImage: 'images/the_precipice.jpg',
+  ),
   // The art of thinking clearly
   // Digital minimalism
   // ultramarathon man
