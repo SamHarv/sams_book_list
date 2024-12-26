@@ -500,7 +500,11 @@ List<Book> books = [
     author: 'Rolf Dobelli',
     coverImage: 'images/thinking_clearly.jpg',
   ),
-  // Digital minimalism
+  Book(
+    title: 'Digital Minimalism: Choosing a Focused Life in a Noisy World',
+    author: 'Cal Newport',
+    coverImage: 'images/digital_minimalism.jpg',
+  ),
   // ultramarathon man
   // Factfulness
   // Yearbook
