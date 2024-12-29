@@ -505,7 +505,11 @@ List<Book> books = [
     author: 'Cal Newport',
     coverImage: 'images/digital_minimalism.jpg',
   ),
-  // ultramarathon man
+  Book(
+    title: 'Ultramarathon Man: Confessions of an All-Night Runner',
+    author: 'Dean Karnazes',
+    coverImage: 'images/ultra_marathon_man.jpg',
+  ),
   // Factfulness
   // Yearbook
   // Big meg
