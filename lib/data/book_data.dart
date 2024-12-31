@@ -510,7 +510,12 @@ List<Book> books = [
     author: 'Dean Karnazes',
     coverImage: 'images/ultra_marathon_man.jpg',
   ),
-  // Factfulness
+  Book(
+    title: 'Factfulness: Ten Reasons We\'re Wrong About the World - and Why '
+        'Things Are Better Than You Think',
+    author: 'Hans Rosling',
+    coverImage: 'images/factfulness.jpg',
+  ),
   // Yearbook
   // Big meg
   // Indistracitable
