@@ -516,7 +516,11 @@ List<Book> books = [
     author: 'Hans Rosling',
     coverImage: 'images/factfulness.jpg',
   ),
-  // Yearbook
+  Book(
+    title: 'Yearbook',
+    author: 'Seth Rogen',
+    coverImage: 'images/yearbook.jpg',
+  ),
   // Big meg
   // Indistracitable
   // Hooked
