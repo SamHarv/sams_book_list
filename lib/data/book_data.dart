@@ -521,8 +521,25 @@ List<Book> books = [
     author: 'Seth Rogen',
     coverImage: 'images/yearbook.jpg',
   ),
-  // Big meg
-  // Indistracitable
-  // Hooked
-  // Dare to lead
+  Book(
+    title:
+        'Big Meg: The Story of the Largest, Fiercest and Most Mysterious Shark',
+    author: 'Tim Flannery & Emma Flannery',
+    coverImage: 'images/big_meg.jpg',
+  ),
+  Book(
+    title: 'Indistractable: How to Control Your Attention and Choose Your Life',
+    author: 'Nir Eyal',
+    coverImage: 'images/indistractable.jpg',
+  ),
+  // Book(
+  //   title: 'Hooked: How to Build Habit-Forming Products',
+  //   author: 'Nir Eyal',
+  //   coverImage: 'images/hooked.jpg',
+  // ),
+  // Book(
+  //   title: 'Dare to Lead: Brave Work. Tough Conversations. Whole Hearts.',
+  //   author: 'Brené Brown',
+  //   coverImage: 'images/dare_to_lead.jpg',
+  // ),
 ];
