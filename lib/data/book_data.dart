@@ -537,9 +537,9 @@ List<Book> books = [
     author: 'Nir Eyal',
     coverImage: 'images/indistractable.jpg',
   ),
-  // Book(
-  //   title: 'Hooked: How to Build Habit-Forming Products',
-  //   author: 'Nir Eyal',
-  //   coverImage: 'images/hooked.jpg',
-  // ),
+  Book(
+    title: 'Hooked: How to Build Habit-Forming Products',
+    author: 'Nir Eyal',
+    coverImage: 'images/hooked.jpg',
+  ),
 ];
