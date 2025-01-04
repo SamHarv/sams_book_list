@@ -351,6 +351,11 @@ List<Book> books = [
     coverImage: 'images/steve_jobs.jpg',
   ),
   Book(
+    title: 'On the Origin of Species',
+    author: 'Charles Darwin',
+    coverImage: 'images/origin_species.jpg',
+  ),
+  Book(
     title: 'Mud, Sweat and Tears',
     author: 'Bear Grylls',
     coverImage: 'images/mud_sweat_tears.jpg',
@@ -376,12 +381,12 @@ List<Book> books = [
     author: 'Kim Scott',
     coverImage: 'images/radical_candor.jpg',
   ),
+  //70
   Book(
     title: 'This is Marketing: You Can\'t Be Seen Until You Learn to See',
     author: 'Seth Godin',
     coverImage: 'images/this_is_marketing.jpg',
   ),
-  //70
   Book(
     title:
         'Daring Greatly: How the Courage to be Vulnerable Transforms the Way We Live, Love, Parent, and Lead',
@@ -430,12 +435,12 @@ List<Book> books = [
     author: 'Stuart Russell',
     coverImage: 'images/human_compatible.jpg',
   ),
+  //80
   Book(
     title: 'TED Talks: The Official TED Guide to Public Speaking',
     author: 'Chris Anderson',
     coverImage: 'images/ted_talks.jpg',
   ),
-  //80
   Book(
     title: 'Pitch Anything: An Innovative Method for Presenting, Persuading, '
         'and Winning the Deal',
@@ -484,12 +489,12 @@ List<Book> books = [
     author: 'Matthew Walker',
     coverImage: 'images/why_we_sleep.jpg',
   ),
+  //90
   Book(
     title: 'Making Money, Made Simple',
     author: 'Noel Whittaker',
     coverImage: 'images/making_money.jpg',
   ),
-  //90
   Book(
     title: 'The Precipice: Existential Risk and the Future of Humanity',
     author: 'Toby Ord',
@@ -536,10 +541,5 @@ List<Book> books = [
   //   title: 'Hooked: How to Build Habit-Forming Products',
   //   author: 'Nir Eyal',
   //   coverImage: 'images/hooked.jpg',
-  // ),
-  // Book(
-  //   title: 'Dare to Lead: Brave Work. Tough Conversations. Whole Hearts.',
-  //   author: 'Brené Brown',
-  //   coverImage: 'images/dare_to_lead.jpg',
   // ),
 ];
