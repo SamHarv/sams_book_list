@@ -127,6 +127,11 @@ List<Book> books = [
     coverImage: 'images/build.jpg',
   ),
   Book(
+    title: 'Range: How Generalists Triumph in a Specialized World',
+    author: 'David Epstein',
+    coverImage: 'images/range.jpg',
+  ),
+  Book(
     title: 'Superintelligence: Paths, Dangers, Strategies',
     author: 'Nick Bostrom',
     coverImage: 'images/superintelligence.jpg',
@@ -159,12 +164,12 @@ List<Book> books = [
     author: 'Josh Kaufman',
     coverImage: 'images/first_20_hours.jpg',
   ),
+  //30
   Book(
     title: 'Start with Why: How Great Leaders Inspire Everyone to Take Action',
     author: 'Simon Sinek',
     coverImage: 'images/start_with_why.jpg',
   ),
-  //30
   Book(
     title: 'Mindset: Changing The Way You Think To Fulfil Your Potential',
     author: 'Carol S. Dweck',
@@ -213,12 +218,12 @@ List<Book> books = [
     author: 'Walter Isaacson',
     coverImage: 'images/innovators.jpg',
   ),
+  //40
   Book(
     title: 'Hackers',
     author: 'Steven Levy',
     coverImage: 'images/hackers.jpg',
   ),
-  //40
   Book(
     title: 'The Power of Now: A Guide to Spiritual Enlightenment',
     author: 'Eckhart Tolle',
@@ -268,13 +273,13 @@ List<Book> books = [
     author: 'Jim VandeHei, Mike Allen & Roy Schwartz',
     coverImage: 'images/smart_brevity.jpg',
   ),
+  //50
   Book(
     title:
         'The Code of The Extraordinary Mind: 10 Unconventional Laws to Redefine Your Life and Succeed On Your Own Terms',
     author: 'Vishen Lakhiani',
     coverImage: 'images/the_code.jpg',
   ),
-  //50
   Book(
     title: 'Four Thousand Weeks: Time Management for Mortals',
     author: 'Oliver Burkeman',
@@ -323,12 +328,12 @@ List<Book> books = [
     author: 'Michio Kaku',
     coverImage: 'images/future_of_the_mind.jpg',
   ),
+  //60
   Book(
     title: 'Ikigai: The Japanese Secret to a Long and Happy Life',
     author: 'Héctor García, Francesc Miralles',
     coverImage: 'images/ikigai.jpg',
   ),
-  //60
   Book(
     title: 'The Lean Startup: How Constant Innovation Creates Radically '
         'Successful Businesses',
@@ -376,12 +381,12 @@ List<Book> books = [
     author: 'Steven D. Levitt & Stephen J. Dubner',
     coverImage: 'images/freakonomics.jpg',
   ),
+  //70
   Book(
     title: 'Radical Candor: How to Get What You Want by Saying What You Mean',
     author: 'Kim Scott',
     coverImage: 'images/radical_candor.jpg',
   ),
-  //70
   Book(
     title: 'This is Marketing: You Can\'t Be Seen Until You Learn to See',
     author: 'Seth Godin',
@@ -429,13 +434,13 @@ List<Book> books = [
     author: 'Josh Kaufman',
     coverImage: 'images/personal_MBA.jpg',
   ),
+  //80
   Book(
     title:
         'Human Compatible: Artificial Intelligence and the Problem of Control',
     author: 'Stuart Russell',
     coverImage: 'images/human_compatible.jpg',
   ),
-  //80
   Book(
     title: 'TED Talks: The Official TED Guide to Public Speaking',
     author: 'Chris Anderson',
@@ -484,12 +489,12 @@ List<Book> books = [
     author: 'Atul Gawande',
     coverImage: 'images/better.jpg',
   ),
+  //90
   Book(
     title: 'Why We Sleep: The New Science of Sleep and Dreams',
     author: 'Matthew Walker',
     coverImage: 'images/why_we_sleep.jpg',
   ),
-  //90
   Book(
     title: 'Making Money, Made Simple',
     author: 'Noel Whittaker',
@@ -536,10 +541,5 @@ List<Book> books = [
     title: 'Indistractable: How to Control Your Attention and Choose Your Life',
     author: 'Nir Eyal',
     coverImage: 'images/indistractable.jpg',
-  ),
-  Book(
-    title: 'Hooked: How to Build Habit-Forming Products',
-    author: 'Nir Eyal',
-    coverImage: 'images/hooked.jpg',
   ),
 ];
