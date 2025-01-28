@@ -6,7 +6,7 @@ import '/data/book_data.dart';
 import '/widgets/book_widget.dart';
 import '/constants.dart';
 
-final _url = Uri.parse('https://oxygentech.com.au');
+final _url = Uri.parse('https://o2tech.com.au');
 
 Future<void> _launchUrl() async {
   if (!await launchUrl(_url)) {
