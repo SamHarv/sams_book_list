@@ -501,6 +501,12 @@ List<Book> books = [
     coverImage: 'images/making_money.jpg',
   ),
   Book(
+    title:
+        'Anything You Can Imagine: Peter Jackson and the Making of Middle-earth',
+    author: 'Ian Nathan',
+    coverImage: 'images/anything.jpg',
+  ),
+  Book(
     title: 'The Precipice: Existential Risk and the Future of Humanity',
     author: 'Toby Ord',
     coverImage: 'images/the_precipice.jpg',
@@ -536,10 +542,5 @@ List<Book> books = [
         'Big Meg: The Story of the Largest, Fiercest and Most Mysterious Shark',
     author: 'Tim Flannery & Emma Flannery',
     coverImage: 'images/big_meg.jpg',
-  ),
-  Book(
-    title: 'Indistractable: How to Control Your Attention and Choose Your Life',
-    author: 'Nir Eyal',
-    coverImage: 'images/indistractable.jpg',
   ),
 ];
