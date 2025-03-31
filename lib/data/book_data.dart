@@ -436,6 +436,11 @@ List<Book> books = [
   ),
   //80
   Book(
+    title: "Hell Yeah or No: What's Worth Doing",
+    author: "Derek Sivers",
+    coverImage: 'images/hell_yeah.jpg',
+  ),
+  Book(
     title:
         'Human Compatible: Artificial Intelligence and the Problem of Control',
     author: 'Stuart Russell',
@@ -484,12 +489,12 @@ List<Book> books = [
     author: 'Richard Branson',
     coverImage: 'images/losing_my_virginity.jpg',
   ),
+  // 90
   Book(
     title: 'Better: A Surgeon\'s Notes on Performance',
     author: 'Atul Gawande',
     coverImage: 'images/better.jpg',
   ),
-  //90
   Book(
     title: 'Why We Sleep: The New Science of Sleep and Dreams',
     author: 'Matthew Walker',
@@ -536,11 +541,5 @@ List<Book> books = [
     title: 'Yearbook',
     author: 'Seth Rogen',
     coverImage: 'images/yearbook.jpg',
-  ),
-  Book(
-    title:
-        'Big Meg: The Story of the Largest, Fiercest and Most Mysterious Shark',
-    author: 'Tim Flannery & Emma Flannery',
-    coverImage: 'images/big_meg.jpg',
   ),
 ];
