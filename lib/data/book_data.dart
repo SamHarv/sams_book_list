@@ -132,6 +132,10 @@ List<Book> books = [
     coverImage: 'images/range.jpg',
   ),
   Book(
+      title: 'The Next Conversation: Argue Less, Talk More',
+      author: 'Jefferson Fisher',
+      coverImage: 'images/next_conversation.jpg'),
+  Book(
     title: 'Superintelligence: Paths, Dangers, Strategies',
     author: 'Nick Bostrom',
     coverImage: 'images/superintelligence.jpg',
@@ -159,12 +163,12 @@ List<Book> books = [
     author: 'Chris Voss',
     coverImage: 'images/never_split.jpg',
   ),
+  //30
   Book(
     title: 'The First 20 Hours: How to Learn Anything... Fast!',
     author: 'Josh Kaufman',
     coverImage: 'images/first_20_hours.jpg',
   ),
-  //30
   Book(
     title: 'Start with Why: How Great Leaders Inspire Everyone to Take Action',
     author: 'Simon Sinek',
@@ -212,13 +216,13 @@ List<Book> books = [
     author: 'David Goggins',
     coverImage: 'images/cant_hurt_me.jpg',
   ),
+  //40
   Book(
     title: 'The Innovators: How a Group of Hackers, Geniuses, and Geeks '
         'Created the Digital Revolution',
     author: 'Walter Isaacson',
     coverImage: 'images/innovators.jpg',
   ),
-  //40
   Book(
     title: 'Hackers',
     author: 'Steven Levy',
@@ -268,12 +272,12 @@ List<Book> books = [
     author: 'Angela Duckworth',
     coverImage: 'images/grit.jpg',
   ),
+  //50
   Book(
     title: 'Smart Brevity: The Power of Saying More with Less',
     author: 'Jim VandeHei, Mike Allen & Roy Schwartz',
     coverImage: 'images/smart_brevity.jpg',
   ),
-  //50
   Book(
     title:
         'The Code of The Extraordinary Mind: 10 Unconventional Laws to Redefine Your Life and Succeed On Your Own Terms',
@@ -354,11 +358,6 @@ List<Book> books = [
     title: 'Steve Jobs',
     author: 'Walter Isaacson',
     coverImage: 'images/steve_jobs.jpg',
-  ),
-  Book(
-    title: 'On the Origin of Species',
-    author: 'Charles Darwin',
-    coverImage: 'images/origin_species.jpg',
   ),
   Book(
     title: 'Mud, Sweat and Tears',
