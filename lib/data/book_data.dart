@@ -339,6 +339,11 @@ List<Book> books = [
     coverImage: 'images/ikigai.jpg',
   ),
   Book(
+    title: 'Meditations for Mortals',
+    author: 'Oliver Burkeman',
+    coverImage: 'images/meditations_for_mortals.jpg',
+  ),
+  Book(
     title: 'The Lean Startup: How Constant Innovation Creates Radically '
         'Successful Businesses',
     author: 'Eric Ries',
@@ -374,13 +379,13 @@ List<Book> books = [
     author: 'Malcolm Gladwell',
     coverImage: 'images/outliers.jpg',
   ),
+  // 70
   Book(
     title:
         'Freakonomics: A Rogue Economist Explores the Hidden Side of Everything',
     author: 'Steven D. Levitt & Stephen J. Dubner',
     coverImage: 'images/freakonomics.jpg',
   ),
-  //70
   Book(
     title: 'Radical Candor: How to Get What You Want by Saying What You Mean',
     author: 'Kim Scott',
@@ -428,12 +433,12 @@ List<Book> books = [
     author: 'Spencer Johnson',
     coverImage: 'images/moved_cheese.jpg',
   ),
+  // 80
   Book(
     title: 'The Personal MBA: Master the Art of Business',
     author: 'Josh Kaufman',
     coverImage: 'images/personal_MBA.jpg',
   ),
-  //80
   Book(
     title: "Hell Yeah or No: What's Worth Doing",
     author: "Derek Sivers",
@@ -482,13 +487,13 @@ List<Book> books = [
     author: 'Bill Bryson',
     coverImage: 'images/nearly_everything.jpg',
   ),
+  // 90
   Book(
     title: 'Losing My Virginity: How I Survived, Had Fun, and Made a Fortune '
         'Doing Business My Way',
     author: 'Richard Branson',
     coverImage: 'images/losing_my_virginity.jpg',
   ),
-  // 90
   Book(
     title: 'Better: A Surgeon\'s Notes on Performance',
     author: 'Atul Gawande',
@@ -535,10 +540,5 @@ List<Book> books = [
         'Things Are Better Than You Think',
     author: 'Hans Rosling',
     coverImage: 'images/factfulness.jpg',
-  ),
-  Book(
-    title: 'Yearbook',
-    author: 'Seth Rogen',
-    coverImage: 'images/yearbook.jpg',
   ),
 ];
